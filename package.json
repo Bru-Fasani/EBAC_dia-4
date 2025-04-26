@@ -1,0 +1,23 @@
+{
+  "name": "qa-study-ebac",
+  "version": "1.0.0",
+  "description": "Repositório de estudos da Jornada QA oferecida pela EBAC entre os dias 22/04 a 29/04\r 👩‍💻",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bru-Fasani/QA-study-EBAC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bru-Fasani/QA-study-EBAC/issues"
+  },
+  "homepage": "https://github.com/Bru-Fasani/QA-study-EBAC#readme",
+  "dependencies": {
+    "cypress": "^14.3.2"
+  }
+}
