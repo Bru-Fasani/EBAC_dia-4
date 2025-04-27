@@ -10,7 +10,15 @@
 //
 //
 // -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
+Cypress.Commands.add('preencher cadastro', (nome, sobrenome, email, telefone, senha) => {
+    cy.get('#signup-firstname').type(nome)
+    cy.get('#signup-lastname').type(sobrenome)
+    cy.get('#signup-email').type(email)
+    cy.get('#signup-phone').type(telefone)
+    cy.get('#signup-password').type(senha)
+    cy.get('#signup-button').click()
+    
+ })
 //
 //
 // -- This is a child command --
